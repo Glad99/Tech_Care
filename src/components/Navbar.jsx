@@ -12,7 +12,7 @@ import more from "../assets/more_vert_FILL0_wght300_GRAD0_opsz24.svg"
 
 const Navbar = () => {
   return (
-    <div className='bg-white h-[72px] flex justify-between p-8 items-center rounded-full'>
+    <div className='bg-white h-[72px] flex justify-between p-8 items-center rounded-full w-[100%]'>
             <img src={logo} alt="" className="w-[211px] h-[48px] " />
         <div className="flex w-[663px] justify-between items-center">
             <div className="flex gap-2 hover:bg-[#D8FCF7] cursor-pointer py-3 px-4 rounded-full">
